@@ -1,7 +1,7 @@
 import random
 # from builtins import None
 
-limit = 10
+limit = int(input("Please Enter the Upper Limit for the Game."))
 guess = random.randint(0, limit)
 print(guess)  #TODO: Remove it afterwards
 inp = None
